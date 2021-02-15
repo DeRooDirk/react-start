@@ -51,7 +51,7 @@ function App() {
 
   <Todolist  todos ={todos} toggleTodo={toggleTodo}/>
 
-  <input className="input" type="text" ref={todoNameRef} />
+  <input className="input" type="text" ref={todoNameRef}/>
 
   <div className="buttons">
   <button onClick ={handleAddTodo}>Add Todo</button>
