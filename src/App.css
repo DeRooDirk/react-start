@@ -88,3 +88,6 @@ p{
   flex-direction: column;
   
 }
+label{
+  margin :1rem;
+}

@@ -44,8 +44,8 @@ return (
     <h3> React Task manager</h3>
 
     <div className="dirk">
-      <p >
-        <Todolist todos={todos} toggleTodo={toggleTodo} />
+      <p >Todo's
+        <Todolist todos={todos }  toggleTodo={toggleTodo} />
       </p>
       <input className="input" type="text" ref={todoNameRef} />
         
